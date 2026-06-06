@@ -1,0 +1,9 @@
+{
+  "name": "Shaheer Iqbal Portfolio",
+  "short_name": "Shaheer",
+  "description": "Premium developer portfolio for Shaheer Iqbal.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#050816"
+}
