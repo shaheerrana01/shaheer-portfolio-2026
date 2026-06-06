@@ -34,7 +34,7 @@ export const personal = {
   phone: "03057974482",
   whatsapp: "https://wa.me/923057974482",
   resume: "/shaheer-cv-may-2026.pdf",
-  profileImage: "",
+  profileImage: "/profile.jpg",
   tagline: "Building modern web experiences with speed, clarity, and creative frontend thinking.",
   intro:
     "I am a passionate web developer and computer science student focused on responsive interfaces, clean user experiences, and practical digital products. I bring strong communication, leadership, and a fast-learning mindset to every project.",
