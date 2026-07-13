@@ -74,7 +74,7 @@ export const socialLinks = [
 ];
 
 export const heroStats = [
-  { value: "05+", label: "Featured builds" },
+  { value: "07+", label: "Featured builds" },
   { value: "02", label: "Professional roles" },
   { value: "2026", label: "Career focus" },
 ];
@@ -128,12 +128,22 @@ export const projects = [
   {
     title: "Amazon Clone",
     category: "Frontend",
-    tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["React", "JavaScript", "CSS", "Vercel"],
     description:
-      "An Amazon-inspired frontend clone featuring responsive navigation, interactive product blocks, polished layout structure, and marketplace-style content density.",
-    github: "https://github.com/shaheerrana01/amazon-clone",
-    live: "#contact",
+      "A responsive Amazon-inspired shopping interface with marketplace-style navigation, product presentation, and polished ecommerce layout structure.",
+    github: "https://github.com/shaheerrana01/amazonclone",
+    live: "https://amazonclone-six-beryl.vercel.app/",
     accent: "violet",
+  },
+  {
+    title: "Trillionaire Shop",
+    category: "Ecommerce",
+    tech: ["React", "JavaScript", "CSS", "Vercel"],
+    description:
+      "A modern ecommerce storefront focused on premium product browsing, clean conversion paths, responsive spacing, and a client-ready shopping experience.",
+    github: "https://github.com/shaheerrana01/trillionaireshop",
+    live: "https://trillionaireshop.vercel.app/",
+    accent: "cyan",
   },
   {
     title: "Currency Converter",
@@ -143,6 +153,16 @@ export const projects = [
       "A clean real-time currency conversion interface designed with API integration in mind, precise input states, and a simple financial workflow.",
     github: "https://github.com/shaheerrana01/currency-converter",
     live: "#contact",
+    accent: "mint",
+  },
+  {
+    title: "Password Generator",
+    category: "JavaScript",
+    tech: ["HTML", "CSS", "JavaScript"],
+    description:
+      "A utility-focused password generator concept designed for quick secure password creation, simple controls, readable output, and practical frontend logic.",
+    github: "https://github.com/shaheerrana01/passwordGenerator",
+    live: "",
     accent: "mint",
   },
   {
@@ -160,13 +180,13 @@ export const projects = [
     category: "UI/UX",
     tech: ["Figma", "UI/UX Design"],
     description:
-      "A mobile app redesign case study exploring JazzWorld-style telecom flows, clearer service access, modern visual rhythm, and user-friendly account actions.",
+      "A mobile JazzWorld redesign case study with wallet balance, usage tracking, package discovery, support navigation, and colorful telecom service flows.",
     github: "https://figma.com/@shaheerrana01",
     live: "https://figma.com/@shaheerrana01",
     accent: "violet",
+    previewImages: ["/jazz-world-s1.png", "/jazz-world-s2.png"],
   },
 ];
-
 // UPDATE EXPERIENCE HERE.
 export const experience = [
   {
