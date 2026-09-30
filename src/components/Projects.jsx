@@ -21,8 +21,8 @@ export default function Projects() {
     <section id="projects" className="section-shell">
       <SectionHeading
         eyebrow="Projects"
-        title="Selected work with polished interaction and real structure."
-        description="Project cards are content-safe, filterable, and ready for live links. Update the projects list in the data file as the portfolio grows."
+        title="Explore my projects."
+        description="Open a live website in a new tab, or explore the source. Starter repositories are clearly marked."
       />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -101,15 +101,15 @@ export default function Projects() {
                   </div>
                   <div className="mt-6 flex gap-3">
                     {hasLive ? (
-                      <a href={project.live} target={project.live.startsWith("#") ? undefined : "_blank"} rel={project.live.startsWith("#") ? undefined : "noreferrer"} className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 py-3 text-sm font-bold text-white transition hover:bg-cyan hover:text-ink dark:bg-white dark:text-ink dark:hover:bg-cyan">
-                        <FiExternalLink /> Preview
+                      <a href={project.live} target="_blank" rel="noopener noreferrer" className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 py-3 text-sm font-bold text-white transition hover:bg-cyan hover:text-ink dark:bg-white dark:text-ink dark:hover:bg-cyan">
+                        <FiExternalLink /> Live Preview
                       </a>
                     ) : (
                       <span className="inline-flex flex-1 cursor-not-allowed items-center justify-center gap-2 rounded-lg border border-slate-200 bg-slate-100 px-4 py-3 text-sm font-bold text-slate-400 dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-500">
-                        <FiExternalLink /> Live soon
+                        <FiExternalLink /> Repository only
                       </span>
                     )}
-                    <a href={project.github} target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-lg border border-slate-200 text-slate-700 transition hover:border-cyan hover:text-cyan dark:border-white/10 dark:text-slate-200">
+                    <a aria-label={`View ${project.title} repository${project.privateSource ? " (private)" : ""}`} title={project.privateSource ? "Private repository — owner access required" : "View source on GitHub"} href={project.github} target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-lg border border-slate-200 text-slate-700 transition hover:border-cyan hover:text-cyan dark:border-white/10 dark:text-slate-200">
                       <FiGithub />
                     </a>
                   </div>

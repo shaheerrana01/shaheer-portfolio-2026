@@ -26,8 +26,8 @@ export default function Navbar({ theme, onThemeToggle }) {
           <span className="grid h-10 w-10 place-items-center rounded-lg bg-slate-950 text-sm font-black text-white shadow-glow dark:bg-white dark:text-ink">
             SI
           </span>
-          <span className="hidden font-display text-sm font-bold uppercase tracking-[0.22em] text-slate-950 dark:text-white sm:block">
-            Shaheer
+          <span className="hidden font-display text-sm font-bold uppercase tracking-[0.04em] text-slate-950 dark:text-white sm:block">
+            Shaheer Iqbal Portfolio
           </span>
         </a>
 

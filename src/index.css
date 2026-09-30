@@ -95,3 +95,6 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Responsive content and keyboard-friendly project links. */
+img{max-width:100%} main,section,article{min-width:0} a{overflow-wrap:anywhere} @media(max-width:380px){#projects article>div:last-child{padding:16px} #projects article a{padding-inline:10px} }

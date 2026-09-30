@@ -74,7 +74,7 @@ export const socialLinks = [
 ];
 
 export const heroStats = [
-  { value: "07+", label: "Featured builds" },
+  { value: "06", label: "Live websites" },
   { value: "02", label: "Professional roles" },
   { value: "2026", label: "Career focus" },
 ];
@@ -116,76 +116,137 @@ export const softSkills = [
 // ADD NEW PROJECT HERE.
 export const projects = [
   {
-    title: "Ecommerce Web Store",
-    category: "Frontend",
-    tech: ["HTML", "CSS"],
-    description:
-      "A responsive ecommerce landing experience built around product clarity, strong visual hierarchy, and clean shopping interactions for modern retail brands.",
-    github: "https://github.com/shaheerrana01/ecommerce-store",
-    live: "#contact",
-    accent: "cyan",
+    "title": "Zaiqa Ghar",
+    "category": "Full-stack",
+    "tech": [
+      "Next.js",
+      "Supabase",
+      "TypeScript"
+    ],
+    "description": "Meal requests, manager menus, Urdu/English support and cash-on-delivery tracking.",
+    "github": "https://github.com/shaheerrana01/zaiqaghar12",
+    "live": "https://zaiqaghar12.vercel.app",
+    "privateSource": true,
+    "accent": "cyan"
   },
   {
-    title: "Amazon Clone",
-    category: "Frontend",
-    tech: ["React", "JavaScript", "CSS", "Vercel"],
-    description:
-      "A responsive Amazon-inspired shopping interface with marketplace-style navigation, product presentation, and polished ecommerce layout structure.",
-    github: "https://github.com/shaheerrana01/amazonclone",
-    live: "https://amazonclone-six-beryl.vercel.app/",
-    accent: "violet",
+    "title": "RozgarBridge",
+    "category": "Full-stack",
+    "tech": [
+      "React",
+      "Supabase"
+    ],
+    "description": "A bilingual jobs platform with account access, job discovery and administration.",
+    "github": "https://github.com/shaheerrana01/Rozgarbridge",
+    "live": "https://rozgarbridge.vercel.app",
+    "privateSource": true,
+    "accent": "mint"
   },
   {
-    title: "Trillionaire Shop",
-    category: "Ecommerce",
-    tech: ["React", "JavaScript", "CSS", "Vercel"],
-    description:
-      "A modern ecommerce storefront focused on premium product browsing, clean conversion paths, responsive spacing, and a client-ready shopping experience.",
-    github: "https://github.com/shaheerrana01/trillionaireshop",
-    live: "https://trillionaireshop.vercel.app/",
-    accent: "cyan",
+    "title": "Trillionaire Shop",
+    "category": "Frontend",
+    "tech": [
+      "HTML",
+      "CSS"
+    ],
+    "description": "A fashion storefront interface with product collections and a responsive landing page.",
+    "github": "https://github.com/shaheerrana01/trillionaireshop",
+    "live": "https://trillionaireshop.vercel.app",
+    "privateSource": false,
+    "accent": "violet"
   },
   {
-    title: "Currency Converter",
-    category: "JavaScript",
-    tech: ["HTML", "CSS", "JavaScript"],
-    description:
-      "A clean real-time currency conversion interface designed with API integration in mind, precise input states, and a simple financial workflow.",
-    github: "https://github.com/shaheerrana01/currency-converter",
-    live: "#contact",
-    accent: "mint",
+    "title": "Amazon Clone",
+    "category": "Frontend",
+    "tech": [
+      "HTML",
+      "CSS"
+    ],
+    "description": "An Amazon-inspired frontend layout showcasing navigation, product cards and retail page design.",
+    "github": "https://github.com/shaheerrana01/amazonclone",
+    "live": "https://amazonclone-six-beryl.vercel.app",
+    "privateSource": false,
+    "accent": "coral"
   },
   {
-    title: "Password Generator",
-    category: "JavaScript",
-    tech: ["HTML", "CSS", "JavaScript"],
-    description:
-      "A utility-focused password generator concept designed for quick secure password creation, simple controls, readable output, and practical frontend logic.",
-    github: "https://github.com/shaheerrana01/passwordGenerator",
-    live: "",
-    accent: "mint",
+    "title": "Password Generator",
+    "category": "JavaScript",
+    "tech": [
+      "React",
+      "JavaScript"
+    ],
+    "description": "Generate and copy passwords with adjustable length, numbers and symbols.",
+    "github": "https://github.com/shaheerrana01/passwordGenerator",
+    "live": "https://password-generator-nine-mu-43.vercel.app",
+    "privateSource": false,
+    "accent": "cyan"
   },
   {
-    title: "Erozgar Bridge",
-    category: "Startup",
-    tech: ["HTML", "CSS", "JavaScript"],
-    description:
-      "A startup-style digital connectivity concept that helps people discover employment opportunities through focused content, accessible navigation, and trust-building UI.",
-    github: "https://github.com/shaheerrana01/erozgar-bridge",
-    live: "#contact",
-    accent: "coral",
+    "title": "Shaheer Iqbal Portfolio",
+    "category": "Portfolio",
+    "tech": [
+      "React",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+    "description": "My project collection, experience, skills and contact information.",
+    "github": "https://github.com/shaheerrana01/shaheer-portfolio-2026",
+    "live": "https://shaheer-iqbal-portfolio.vercel.app",
+    "privateSource": false,
+    "accent": "mint"
   },
   {
-    title: "JazzWorld Clone",
-    category: "UI/UX",
-    tech: ["Figma", "UI/UX Design"],
-    description:
-      "A mobile JazzWorld redesign case study with wallet balance, usage tracking, package discovery, support navigation, and colorful telecom service flows.",
-    github: "https://figma.com/@shaheerrana01",
-    live: "https://figma.com/@shaheerrana01",
-    accent: "violet",
-    previewImages: ["/jazz-world-s1.png", "/jazz-world-s2.png"],
+    "title": "React-js",
+    "category": "Repository",
+    "tech": [
+      "Learning"
+    ],
+    "description": "A starter repository with a README. No runnable application has been added yet.",
+    "github": "https://github.com/shaheerrana01/React-js",
+    "live": "",
+    "privateSource": false,
+    "accent": "violet"
   },
+  {
+    "title": "shaheer-demo",
+    "category": "Repository",
+    "tech": [
+      "Learning"
+    ],
+    "description": "My first GitHub repository, currently containing introductory documentation.",
+    "github": "https://github.com/shaheerrana01/shaheer-demo",
+    "live": "",
+    "privateSource": false,
+    "accent": "coral"
+  },
+  {
+    "title": "zaiqaghar",
+    "category": "Repository",
+    "tech": [
+      "Planned"
+    ],
+    "description": "An empty starter repository. The working Zaiqa Ghar application is listed separately above.",
+    "github": "https://github.com/shaheerrana01/zaiqaghar",
+    "live": "",
+    "privateSource": false,
+    "accent": "cyan"
+  },
+{
+  "title": "JazzWorld Design",
+  "category": "UI/UX",
+  "tech": [
+    "Figma",
+    "UI Design"
+  ],
+  "description": "A mobile interface design study. View the original screen designs in the full-size gallery.",
+  "github": "https://figma.com/@shaheerrana01",
+  "live": "/jazzworld.html",
+  "accent": "violet",
+  "previewImages": [
+    "/jazz-world-s1.png",
+    "/jazz-world-s2.png"
+  ]
+}
 ];
 // UPDATE EXPERIENCE HERE.
 export const experience = [
