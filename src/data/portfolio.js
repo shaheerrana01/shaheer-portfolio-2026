@@ -29,11 +29,11 @@ import {
 export const personal = {
   name: "Shaheer Iqbal",
   role: "Web Developer",
-  location: "Pakistan",
+  location: "Lahore, Pakistan",
   email: "shaheeriqballl@gmail.com",
   phone: "03057974482",
   whatsapp: "https://wa.me/923057974482",
-  resume: "/shaheer-cv-may-2026.pdf",
+  resume: "/shaheer-cv-september-2026.pdf",
   profileImage: "/profile.jpg",
   tagline: "Building modern web experiences with speed, clarity, and creative frontend thinking.",
   intro:
@@ -74,8 +74,8 @@ export const socialLinks = [
 ];
 
 export const heroStats = [
-  { value: "06", label: "Live websites" },
-  { value: "02", label: "Professional roles" },
+  { value: "06", label: "Selected projects" },
+  { value: "05", label: "Professional roles" },
   { value: "2026", label: "Career focus" },
 ];
 
@@ -127,7 +127,8 @@ export const projects = [
     "github": "https://github.com/shaheerrana01/zaiqaghar12",
     "live": "https://zaiqaghar12.vercel.app",
     "privateSource": true,
-    "accent": "cyan"
+    "accent": "cyan",
+    "image": "/projects/zaiqa.png"
   },
   {
     "title": "RozgarBridge",
@@ -140,7 +141,8 @@ export const projects = [
     "github": "https://github.com/shaheerrana01/Rozgarbridge",
     "live": "https://rozgarbridge.vercel.app",
     "privateSource": true,
-    "accent": "mint"
+    "accent": "mint",
+    "image": "/projects/rozgarbridge.png"
   },
   {
     "title": "Trillionaire Shop",
@@ -153,7 +155,8 @@ export const projects = [
     "github": "https://github.com/shaheerrana01/trillionaireshop",
     "live": "https://trillionaireshop.vercel.app",
     "privateSource": false,
-    "accent": "violet"
+    "accent": "violet",
+    "image": "/projects/trillionaire.png"
   },
   {
     "title": "Amazon Clone",
@@ -166,7 +169,8 @@ export const projects = [
     "github": "https://github.com/shaheerrana01/amazonclone",
     "live": "https://amazonclone-six-beryl.vercel.app",
     "privateSource": false,
-    "accent": "coral"
+    "accent": "coral",
+    "image": "/projects/amazon.png"
   },
   {
     "title": "Password Generator",
@@ -179,74 +183,25 @@ export const projects = [
     "github": "https://github.com/shaheerrana01/passwordGenerator",
     "live": "https://password-generator-nine-mu-43.vercel.app",
     "privateSource": false,
-    "accent": "cyan"
+    "accent": "cyan",
+    "image": "/projects/password.png"
   },
   {
-    "title": "Shaheer Iqbal Portfolio",
-    "category": "Portfolio",
+    "title": "JazzWorld Design",
+    "category": "UI/UX",
     "tech": [
-      "React",
-      "Tailwind CSS",
-      "Framer Motion"
+      "Figma",
+      "UI Design"
     ],
-    "description": "My project collection, experience, skills and contact information.",
-    "github": "https://github.com/shaheerrana01/shaheer-portfolio-2026",
-    "live": "https://shaheer-iqbal-portfolio.vercel.app",
-    "privateSource": false,
-    "accent": "mint"
-  },
-  {
-    "title": "React-js",
-    "category": "Repository",
-    "tech": [
-      "Learning"
-    ],
-    "description": "A starter repository with a README. No runnable application has been added yet.",
-    "github": "https://github.com/shaheerrana01/React-js",
-    "live": "",
-    "privateSource": false,
-    "accent": "violet"
-  },
-  {
-    "title": "shaheer-demo",
-    "category": "Repository",
-    "tech": [
-      "Learning"
-    ],
-    "description": "My first GitHub repository, currently containing introductory documentation.",
-    "github": "https://github.com/shaheerrana01/shaheer-demo",
-    "live": "",
-    "privateSource": false,
-    "accent": "coral"
-  },
-  {
-    "title": "zaiqaghar",
-    "category": "Repository",
-    "tech": [
-      "Planned"
-    ],
-    "description": "An empty starter repository. The working Zaiqa Ghar application is listed separately above.",
-    "github": "https://github.com/shaheerrana01/zaiqaghar",
-    "live": "",
-    "privateSource": false,
-    "accent": "cyan"
-  },
-{
-  "title": "JazzWorld Design",
-  "category": "UI/UX",
-  "tech": [
-    "Figma",
-    "UI Design"
-  ],
-  "description": "A mobile interface design study. View the original screen designs in the full-size gallery.",
-  "github": "https://figma.com/@shaheerrana01",
-  "live": "/jazzworld.html",
-  "accent": "violet",
-  "previewImages": [
-    "/jazz-world-s1.png",
-    "/jazz-world-s2.png"
-  ]
-}
+    "description": "A mobile interface design study. View the original screen designs in the full-size gallery.",
+    "github": "https://figma.com/@shaheerrana01",
+    "live": "/jazzworld.html",
+    "accent": "violet",
+    "previewImages": [
+      "/jazz-world-s1.png",
+      "/jazz-world-s2.png"
+    ]
+  }
 ];
 // UPDATE EXPERIENCE HERE.
 export const experience = [
@@ -258,7 +213,7 @@ export const experience = [
       "Led business development communication, supported team coordination, and handled client-facing interactions with a focus on trust, clarity, and execution.",
     points: [
       "Managed client communication and helped convert opportunities into practical business actions.",
-      "Guided team members with a leadership-first approach and steady daily coordination.",
+      "Led a team of 10–15 members, coordinating daily operations, sales strategies, and targets.",
       "Built confidence in professional communication, planning, and customer handling.",
     ],
   },
@@ -273,6 +228,30 @@ export const experience = [
       "Supported visual branding and communication across digital touchpoints.",
       "Strengthened creative thinking through audience-focused messaging.",
     ],
+  },
+  {
+    company: "SkyLux Travel",
+    role: "Independent Travel Manager",
+    period: "Remote & Freelance",
+    summary: "Managed international luxury travel enquiries and premium flight sales, combining tailored planning with attentive customer service.",
+    points: [
+      "Handled premium leads, sales negotiations, and personalised international itineraries.",
+      "Managed remote follow-ups and supported customers with global booking changes.",
+    ],
+  },
+  {
+    company: "Tricon Marketing",
+    role: "Tele Sales Representative",
+    period: "2025",
+    summary: "Worked on an international campaign, building experience in customer communication and telephone sales.",
+    points: ["Handled customer enquiries and strengthened professional sales communication."],
+  },
+  {
+    company: "Fellows of Heaven",
+    role: "Operations & Communications Internee",
+    period: "Two-month internship",
+    summary: "Gained practical experience in operations and communications during a two-month internship.",
+    points: ["Received a Certificate of Excellence from Fellows of Heaven."],
   },
 ];
 
@@ -289,5 +268,10 @@ export const certifications = [
     issuer: "ACCESS 2024-2026",
     description:
       "A long-form communication program strengthening English speaking, professional confidence, and cross-cultural presentation skills.",
+  },
+  {
+    title: "Certificate of Excellence",
+    issuer: "Fellows of Heaven",
+    description: "Awarded following a two-month internship in operations and communications.",
   },
 ];

@@ -73,6 +73,15 @@ export default function Skills() {
               );
             })}
           </div>
+          <div className="mt-6 border-t border-slate-200 pt-6 dark:border-white/10">
+            <h4 className="font-display text-lg font-bold text-slate-950 dark:text-white">Digital tools & languages</h4>
+            <ul className="mt-3 space-y-3 text-sm leading-7 text-slate-600 dark:text-slate-300">
+              <li><strong>MS Word:</strong> Document creation, professional formatting, and report design.</li>
+              <li><strong>MS Excel:</strong> Formulas, data management, charts, and conditional formatting.</li>
+              <li><strong>Languages:</strong> English — fluent; Urdu — native.</li>
+              <li><strong>Teaching:</strong> Explaining ideas clearly and supporting learners.</li>
+            </ul>
+          </div>
         </motion.div>
       </div>
     </section>

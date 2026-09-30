@@ -7,7 +7,7 @@ export default function SectionHeading({ eyebrow, title, description }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.35 }}
       transition={{ duration: 0.6 }}
-      className="mx-auto mb-12 max-w-3xl text-center"
+      className="mx-auto mb-12 max-w-3xl px-4 text-center sm:px-6"
     >
       <span className="inline-flex items-center gap-2 rounded-lg border border-cyan/25 bg-cyan/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-cyan dark:border-cyan/30">
         {eyebrow}

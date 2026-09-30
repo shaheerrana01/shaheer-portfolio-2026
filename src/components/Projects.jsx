@@ -22,7 +22,7 @@ export default function Projects() {
       <SectionHeading
         eyebrow="Projects"
         title="Explore my projects."
-        description="Open a live website in a new tab, or explore the source. Starter repositories are clearly marked."
+        description="A selection of my main projects. Open each live website or explore the JazzWorld design gallery."
       />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -51,7 +51,7 @@ export default function Projects() {
           viewport={{ once: true, amount: 0.12 }}
           className="grid gap-5 md:grid-cols-2 xl:grid-cols-3"
         >
-          {filtered.map((project, index) => {
+          {filtered.map((project) => {
             const hasLive = Boolean(project.live);
 
             return (
@@ -61,29 +61,18 @@ export default function Projects() {
                 whileHover={{ y: -8 }}
                 className="group flex min-h-[390px] flex-col overflow-hidden rounded-lg border border-slate-200 bg-white/75 shadow-lg shadow-slate-900/5 backdrop-blur transition dark:border-white/10 dark:bg-white/[0.08]"
               >
-                <div className={`relative h-40 overflow-hidden bg-gradient-to-br ${accentClasses[project.accent]} p-5`}>
-                  <div className="absolute inset-0 opacity-50 grid-pattern" />
-                  {project.previewImages ? (
-                    <div className="absolute inset-x-5 bottom-0 flex items-end justify-end gap-3">
+                <a href={project.live} target="_blank" rel="noopener noreferrer" aria-label={`Preview ${project.title}`} className={`relative block h-52 overflow-hidden bg-gradient-to-br ${accentClasses[project.accent]}`}>
+                  {project.image ? (
+                    <img src={project.image} alt={`${project.title} website preview`} width="1440" height="900" loading="lazy" className="h-full w-full bg-slate-950 object-contain transition duration-500 group-hover:scale-105" />
+                  ) : (
+                    <div className="flex h-full items-start justify-center gap-5 px-5 pt-4">
                       {project.previewImages.map((image, imageIndex) => (
-                        <img
-                          key={image}
-                          src={image}
-                          alt={`${project.title} screen ${imageIndex + 1}`}
-                          className="h-32 w-16 rounded-t-lg border border-white/60 object-cover object-top shadow-xl shadow-slate-950/20 dark:border-white/20"
-                        />
+                        <img key={image} src={image} alt={`${project.title} screen ${imageIndex + 1}`} loading="lazy" className="w-28 rounded-t-xl border border-white/30 shadow-xl" />
                       ))}
                     </div>
-                  ) : null}
-                  <div className="relative flex h-full flex-col justify-between">
-                    <span className="w-fit rounded-lg border border-current/20 bg-white/70 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] dark:bg-ink/50">
-                      {project.category}
-                    </span>
-                    <p className="font-display text-5xl font-black text-slate-950/10 dark:text-white/10">
-                      0{index + 1}
-                    </p>
-                  </div>
-                </div>
+                  )}
+                  <span className="absolute bottom-3 left-3 rounded-lg bg-slate-950/90 px-3 py-1 text-xs font-bold tracking-wide text-white">{project.category}</span>
+                </a>
 
                 <div className="flex flex-1 flex-col p-5">
                   <h3 className="font-display text-xl font-bold text-slate-950 dark:text-white">
@@ -102,14 +91,14 @@ export default function Projects() {
                   <div className="mt-6 flex gap-3">
                     {hasLive ? (
                       <a href={project.live} target="_blank" rel="noopener noreferrer" className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 py-3 text-sm font-bold text-white transition hover:bg-cyan hover:text-ink dark:bg-white dark:text-ink dark:hover:bg-cyan">
-                        <FiExternalLink /> Live Preview
+                        <FiExternalLink /> {project.category === "UI/UX" ? "View Design" : "Live Preview"}
                       </a>
                     ) : (
                       <span className="inline-flex flex-1 cursor-not-allowed items-center justify-center gap-2 rounded-lg border border-slate-200 bg-slate-100 px-4 py-3 text-sm font-bold text-slate-400 dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-500">
                         <FiExternalLink /> Repository only
                       </span>
                     )}
-                    <a aria-label={`View ${project.title} repository${project.privateSource ? " (private)" : ""}`} title={project.privateSource ? "Private repository — owner access required" : "View source on GitHub"} href={project.github} target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-lg border border-slate-200 text-slate-700 transition hover:border-cyan hover:text-cyan dark:border-white/10 dark:text-slate-200">
+                    <a aria-label={project.category === "UI/UX" ? "View Figma profile" : `View ${project.title} repository${project.privateSource ? " (private)" : ""}`} title={project.privateSource ? "Private repository — owner access required" : "View source on GitHub"} href={project.github} target="_blank" rel="noreferrer" className="grid h-11 w-11 place-items-center rounded-lg border border-slate-200 text-slate-700 transition hover:border-cyan hover:text-cyan dark:border-white/10 dark:text-slate-200">
                       <FiGithub />
                     </a>
                   </div>

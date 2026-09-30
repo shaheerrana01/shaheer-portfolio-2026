@@ -5,6 +5,7 @@ import ChatbotPreview from "./components/ChatbotPreview.jsx";
 import Contact from "./components/Contact.jsx";
 import CursorGlow from "./components/CursorGlow.jsx";
 import Experience from "./components/Experience.jsx";
+import Education from "./components/Education.jsx";
 import Footer from "./components/Footer.jsx";
 import Hero from "./components/Hero.jsx";
 import Loader from "./components/Loader.jsx";
@@ -30,6 +31,7 @@ function PortfolioPage() {
         <Skills />
         <Projects />
         <Experience />
+        <Education />
         <Certifications />
         <ChatbotPreview />
         <Contact />

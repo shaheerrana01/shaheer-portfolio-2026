@@ -50,14 +50,15 @@ export default function Navbar({ theme, onThemeToggle }) {
             className="hidden items-center gap-2 rounded-lg bg-slate-950 px-4 py-2.5 text-sm font-semibold text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-cyan hover:text-ink dark:bg-white dark:text-ink dark:hover:bg-cyan sm:inline-flex"
           >
             <FiDownload />
-            Resume
+            CV
           </a>
           <ThemeToggle theme={theme} onToggle={onThemeToggle} />
           <button
             type="button"
             className="grid h-10 w-10 place-items-center rounded-lg border border-slate-200 bg-white/80 text-slate-900 lg:hidden dark:border-white/10 dark:bg-white/[0.08] dark:text-white"
             onClick={() => setOpen((value) => !value)}
-            aria-label="Open menu"
+            aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open}
           >
             {open ? <FiX /> : <FiMenu />}
           </button>
@@ -89,7 +90,7 @@ export default function Navbar({ theme, onThemeToggle }) {
                 className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 py-3 text-sm font-semibold text-white dark:bg-white dark:text-ink"
               >
                 <FiDownload />
-                Download Resume
+                Download CV
               </a>
             </div>
           </motion.div>

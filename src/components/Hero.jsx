@@ -116,7 +116,7 @@ export default function Hero() {
               View Projects <FiArrowDownRight />
             </a>
             <a href={personal.resume} download className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white/80 px-6 py-3.5 text-sm font-bold text-slate-950 transition hover:-translate-y-1 hover:border-cyan hover:text-cyan dark:border-white/10 dark:bg-white/[0.08] dark:text-white">
-              <FiDownload /> Download Resume
+              <FiDownload /> Download CV
             </a>
             <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-lg border border-transparent px-6 py-3.5 text-sm font-bold text-slate-700 transition hover:-translate-y-1 hover:bg-slate-950/5 dark:text-slate-200 dark:hover:bg-white/10">
               <FiMail /> Contact Me
