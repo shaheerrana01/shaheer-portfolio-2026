@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#020617"/>
+  <g font-family="system-ui, sans-serif">
+    <rect x="440" y="112" width="560" height="676" rx="24" fill="#070e23" stroke="#152644" stroke-width="2"/>
+    <text x="720" y="187" fill="#3b82f6" font-size="35" font-weight="700" text-anchor="middle">Currency Converter</text>
+    <g fill="#cbd5e1" font-size="19"><text x="483" y="251">From</text><text x="798" y="251">To</text></g>
+    <g fill="#020617" stroke="#1e293b" stroke-width="2"><rect x="482" y="270" width="175" height="58" rx="10"/><rect x="797" y="270" width="160" height="58" rx="10"/><rect x="482" y="395" width="475" height="62" rx="10"/></g>
+    <g fill="#fff" font-size="22"><text x="506" y="307">USD</text><text x="820" y="307">PKR</text><text x="506" y="435">100</text></g>
+    <text x="723" y="311" fill="#3b82f6" font-size="40" text-anchor="middle">⇄</text>
+    <text x="483" y="377" fill="#cbd5e1" font-size="19">Amount</text>
+    <rect x="482" y="488" width="475" height="126" rx="12" fill="#020617" stroke="#2563eb" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="720" y="541" fill="#fff" text-anchor="middle" font-size="23" font-weight="600">USD → PKR</text>
+    <text x="720" y="583" fill="#22d3ee" text-anchor="middle" font-size="22">Current exchange rates</text>
+    <rect x="482" y="643" width="475" height="62" rx="13" fill="#2563eb"/>
+    <text x="720" y="683" fill="#fff" text-anchor="middle" font-size="22" font-weight="700">Convert</text>
+    <text x="720" y="752" fill="#94a3b8" text-anchor="middle" font-size="17">166 currencies · Dark &amp; light themes</text>
+  </g>
+</svg>

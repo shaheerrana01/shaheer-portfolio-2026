@@ -74,7 +74,7 @@ export const socialLinks = [
 ];
 
 export const heroStats = [
-  { value: "06", label: "Selected projects" },
+  { value: "07", label: "Selected projects" },
   { value: "05", label: "Professional roles" },
   { value: "2026", label: "Career focus" },
 ];
@@ -115,6 +115,17 @@ export const softSkills = [
 
 // ADD NEW PROJECT HERE.
 export const projects = [
+  {
+    "title": "Currency Converter",
+    "category": "JavaScript",
+    "tech": ["HTML", "CSS", "JavaScript", "Exchange Rate API"],
+    "description": "Convert between 166 currencies using current exchange rates, swap currencies, and switch between dark and light themes.",
+    "github": "https://github.com/shaheerrana01/currency-converter",
+    "live": "https://currency-converter-shaheer.vercel.app",
+    "privateSource": false,
+    "accent": "cyan",
+    "image": "/projects/currency-converter.svg"
+  },
   {
     "title": "Zaiqa Ghar",
     "category": "Full-stack",
